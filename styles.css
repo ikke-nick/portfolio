@@ -204,7 +204,7 @@ nav a:hover, nav a:focus { color: var(--color-accent); outline: none; }
 .intro-text{
   color:var(--color-text-secondary);
   font-family: var(--main-font);
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   margin-top: 3%;
   text-align: center;
 }
@@ -213,7 +213,7 @@ nav a:hover, nav a:focus { color: var(--color-accent); outline: none; }
 .intro-text a{
   color: var(--color-accent); 
   font-family: var(--accent-font); 
-  font-size: 1.5rem; 
+  font-size: 1.6rem; 
   font-weight: bold;
   animation: rainbow-text 4s ease-in 1s infinite;
   transition: transform .5s ease-in-out;
@@ -392,11 +392,12 @@ footer{
 @media (max-width:420px){
 
   nav ul { display:none; }
-  .intro-text { font-size: .6rem; margin-top: 10%;}
-  .intro-text a {font-size: 1rem;} 
+  .intro-text { font-size: .7rem; margin-top: 10%;}
+  .intro-text a {font-size: 1.1rem;} 
 }
 
 @media (max-width:340px){
-  .intro-text{font-size: .5rem;}
+  .intro-text{font-size: .6rem;}
 }
+
 
