@@ -90,7 +90,7 @@ a{ text-decoration: none;}
 
 @font-face {
   font-family: "Neutro";
-  src: url("/fonts/Neutro-Bold.woff2") format("woff2");
+  src: url("fonts/Neutro-Bold.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -286,15 +286,15 @@ nav a:hover, nav a:focus { color: var(--color-accent); outline: none; }
 
 /* background images */
 .prj-Fu{
-  background-image:  url('/images/project_images/fu.png');
+  background-image:  url('images/project_images/fu.png');
   background-blend-mode: overlay;
 }
 .prj-Bp{
-  background-image:  url('/images/project_images/bp-light.png');
+  background-image:  url('images/project_images/bp-light.png');
   background-blend-mode: overlay;
 }
 .prj-Mc{
-  background-image:  url('/images/project_images/mn-light.png');
+  background-image:  url('images/project_images/mn-light.png');
   background-blend-mode: overlay;
 }
 
@@ -325,7 +325,7 @@ nav a:hover, nav a:focus { color: var(--color-accent); outline: none; }
   border-radius: 6px;
   padding: .6rem .8rem;
   border: none;
-  background: rgba(255,255,255,0.04);
+  background: rgba(0, 0, 0, 0.018);
   color: var(--color-text-primary);
   transition: box-shadow .25s ease, transform .25s ease;
 }
@@ -399,3 +399,4 @@ footer{
 @media (max-width:340px){
   .intro-text{font-size: .5rem;}
 }
+
